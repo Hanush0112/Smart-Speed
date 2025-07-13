@@ -49,13 +49,3 @@ To prevent overspeeding and reduce accidents by:
 - Jumper wires + Breadboard
 - Power supply (battery)
 
----
-
-## 🧾 Installation & Setup
-
-### 🔹 On Raspberry Pi
-
-1. **Install dependencies**
-```bash
-sudo apt update
-pip install opencv-python numpy serial
