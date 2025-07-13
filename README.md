@@ -24,6 +24,33 @@ To prevent overspeeding and reduce accidents by:
 
 ---
 
+## 🧾 Installation & Setup
+
+### 🔹 On Raspberry Pi
+
+1. **Install dependencies**
+```bash
+sudo apt update
+pip install opencv-python numpy serial
+```
+2. **Clone the repo**
+```bash
+git clone https://github.com/Hanush0112/Smart-Speed.git
+cd Smart-Speed
+```
+3. **Run the detection script**
+```bash
+python detect_speed_limit.py
+```
+## 🔹 On Arduino
+Open motor_control.ino in Arduino IDE
+
+Upload to Arduino Uno via USB
+
+Connect motor driver and power source
+
+---
+
 ## 🧪 Technologies Used
 
 | Component        | Purpose                                      |
@@ -49,3 +76,11 @@ To prevent overspeeding and reduce accidents by:
 - Jumper wires + Breadboard
 - Power supply (battery)
 
+## 🔮 Future Improvements
+Add GPS + location-based dynamic speed limits
+
+Include traffic light & obstacle detection
+
+Optimize model for faster inference (using TensorRT or Edge TPU)
+
+Solar-powered and weather-resistant hardware casing
